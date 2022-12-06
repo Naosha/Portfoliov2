@@ -1,0 +1,425 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+
+    <script
+      src="https://kit.fontawesome.com/02c1331262.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+      integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="script.js"></script>
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav class="sticky">
+      <div class="navbar">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#Home" class="nav-link active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#About" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Skills" class="nav-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#Projects" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item contact">
+            <a href="#Contact" class="nav-link">Contact</a>
+          </li>
+
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://www.facebook.com/naomi.sharp.12/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://github.com/Naosha"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://codepen.io/Naosha"
+              ><i class="fa-brands fa-codepen"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="mailto:naomisharp@hotmail.co.uk"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+
+    <section class="section section-home" id="Home">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="imgs/wave.mp4" type="video/mp4" />
+        </video>
+      </div>
+      <div class="landing-text">
+        <h1 class="heading">Naomi Sharp</h1>
+        <span class="text"></span>
+      </div>
+    </section>
+
+    <section class="section section-about" id="About">
+      <h2 class="section-heading">About me</h2>
+      <p class="section-sub-heading">
+        A little bit about me, what I do and how I came to study web development
+      </p>
+      <div class="about-container">
+        <div class="mugshot">
+          <h3>Mugshot</h3>
+          <img class="about-photo" src="imgs/mugshot.jpg" alt="Naomi photo" />
+          <img class="about-photo-me" src="imgs/naomi.jpg" alt="Naomi photo" />
+        </div>
+        <div class="about-text">
+          <h3>Who am I?</h3>
+          Hi, I'm Naomi! <br />
+          I'm a self-taught full-stack developer based in Wells, Somerset. I'm
+          passionate about learning all things to do with web development and
+          making beautiful websites. Check out some of my work in the
+          <a href="#Projects" class="about-link">project</a> section.
+          <br />Since completing my first web dev bootcamp as a lockdown project
+          in 2020 I've spent every spare moment studying new and exciting
+          <a href="#Skills" class="about-link">technologies</a>. Honestly, I
+          think I may have a slight addiction to Udemy courses!
+          <br />
+          I'm currently looking for job oportunities where I can contribute and
+          continue to learn and grow. If you have a position that would be a
+          good fit for my skills and experience then please
+          <a href="#Contact" class="about-link">get in touch</a>. <br />I love
+          nature, freediving, crochet and playing tenor horn in my local brass
+          band.<br />
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-skills" id="Skills">
+      <h2 class="section-heading">Skills</h2>
+      <p class="section-sub-heading">
+        <!-- Some of the skills, tools and technologies I've picked up along the way. -->
+        I've got skills they're multiplying...
+      </p>
+      <div class="skills-container">
+        <div class="skill skill-yellow">HTML</div>
+        <div class="skill skill-blue">CSS</div>
+        <div class="skill skill-green">SASS</div>
+        <div class="skill skill-yellow">CSS Grid</div>
+        <div class="skill skill-blue">Flexbox</div>
+        <div class="skill skill-green">Responsive design</div>
+        <div class="skill skill-yellow">JavaScript</div>
+        <div class="skill skill-blue">ES6+</div>
+        <div class="skill skill-green">Promises</div>
+        <div class="skill skill-yellow">Async await</div>
+        <div class="skill skill-blue">Error handling</div>
+        <div class="skill skill-green">VSCode</div>
+        <div class="skill skill-yellow">GIT</div>
+        <div class="skill skill-blue">GitHub</div>
+        <div class="skill skill-green">NodeJS</div>
+        <div class="skill skill-yellow">NPM</div>
+        <div class="skill skill-blue">Express</div>
+        <div class="skill skill-green">EJS</div>
+        <div class="skill skill-yellow">Pug</div>
+        <div class="skill skill-blue">Handlebars</div>
+        <div class="skill skill-green">Restful APIs</div>
+        <div class="skill skill-yellow">AJAX</div>
+        <div class="skill skill-blue">React</div>
+        <div class="skill skill-green">MySQL</div>
+        <div class="skill skill-yellow">MongoDB</div>
+        <div class="skill skill-blue">MVC Architecture</div>
+        <div class="skill skill-green">Parcel</div>
+        <div class="skill skill-yellow">OOP Principles</div>
+        <div class="skill skill-blue">iOS & Swift</div>
+        <div class="skill skill-green">Heroku</div>
+        <div class="skill skill-yellow">Render</div>
+        <div class="skill skill-blue">Netlify</div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="Projects">
+      <h2 class="section-heading portfolio-heading">Portfolio</h2>
+      <!-- <p class="section-sub-heading portfolio-heading">
+        Take a look at some of the projects I have built and deployed.
+      </p> -->
+      <card class="project-item">
+        <img
+          src="imgs/affirmations.png"
+          alt="Affirmations photo"
+          class="project-img"
+        />
+        <h2 class="project-heading">
+          <span class="project-title">Affirmations</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Affirmations"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://www.affirmate.co.uk"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          An uplifting positive affirmations app, making use of a production
+          unsplash API to display random nature images with calming music.
+          Deployed to Render with a custom domain.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">Express</button>
+          <button class="project-btn">EJS</button>
+          <button class="project-btn">API</button>
+          <button class="project-btn">MVC</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/natours.png" alt="Natours photo" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Natours</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Natours"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://natours-naomi.netlify.app"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          A single page nature tours application using Block Element Model
+          semantic HTML and node-sass preprocessor for styling.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">JavaScript</button>
+          <button class="project-btn">SASS</button>
+          <button class="project-btn">Animations</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/nexter.png" alt="Nexter photo" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Nexter</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Nexter"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://nexter-naomi.netlify.app/"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          A beautiful single page luxury home application making extensive use
+          of CSS grid layout and and node-sass preprocessor for styling.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">Node</button>
+          <button class="project-btn">SASS</button>
+          <button class="project-btn">CSS Grid</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/mapty.png" alt="Mapty photo" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Mapty</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Mapty"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://mapty-naomi.netlify.app/"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          A workout tracker app using a third party geolocation API and displays
+          a map using a leaflet library. ES6+ JS and classes.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">JavaScript</button>
+          <button class="project-btn">Map API</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/forkify.png" alt="Forkify" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Forkify</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Forkify"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://forkify-naomi.netlify.app/"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          An advanced menu application using ES6+ JS including classes, modules
+          and async await to implement functionality such as pagination and
+          bookmarks.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">JavaScript</button>
+          <button class="project-btn">Parcel</button>
+          <button class="project-btn">API</button>
+          <button class="project-btn">MVC</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/yelpcamp.png" alt="Yelpcamp" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Yelpcamp</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/yelpcamp"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <!-- <a class="live-link" href="#"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a> -->
+          </span>
+        </h2>
+        <p class="project-decription">
+          A large RESTful API campground application. Featuring authentication,
+          star reviews, comments and working with mapbox API.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">Express</button>
+          <button class="project-btn">EJS</button>
+          <button class="project-btn">MongoDB</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img src="imgs/trillo.png" alt="Trillo" class="project-img" />
+        <h2 class="project-heading">
+          <span class="project-title">Trillo</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Trillo"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="https://trillo-naomi.netlify.app"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          A single page responsive Travel site. CSS flexbox project.
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">NodeJS</button>
+          <button class="project-btn">SASS</button>
+          <button class="project-btn">BEM</button>
+          <button class="project-btn">Flexbox</button>
+        </div>
+      </card>
+      <card class="project-item">
+        <img
+          src="imgs/colour-game.png"
+          alt="Colour game image"
+          class="project-img"
+        />
+        <h2 class="project-heading">
+          <span class="project-title">Colour Game</span>
+          <span class="live-links">
+            <a class="live-link" href="https://github.com/Naosha/Colour-Game"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a class="live-link" href="#"
+              ><i class="fa fa-external-link" aria-hidden="true"></i
+            ></a>
+          </span>
+        </h2>
+        <p class="project-decription">
+          An RGB guessing game, written with HMTL, CSS and vanilla JavaScript
+        </p>
+        <div class="project-btns">
+          <button class="project-btn">HTML</button>
+          <button class="project-btn">JavaScript</button>
+          <button class="project-btn">CSS</button>
+        </div>
+      </card>
+    </section>
+
+    <section class="section section-contact" id="Contact">
+      <h2 class="section-heading section-heading-contact">Contact</h2>
+      <h2 class="section-sub-heading section-sub-heading-contact">
+        If you have a project you'd like me to get involved with, an opportunity
+        to discuss or you have any feedback about my portfolio, reach out and
+        I'll respond as soon I can.
+      </h2>
+      <div class="contact-container">
+        <a class="nav-link" href="mailto:naomisharp@hotmail.co.uk">
+          <div class="paperplane">
+            <div class="plane">
+              <div class="wingRight"></div>
+              <div class="wingLeft"></div>
+              <div class="bottom"></div>
+              <div class="top"></div>
+              <div class="middle"></div>
+            </div>
+            <div class="clouds">
+              <div class="cloudOne"></div>
+              <div class="cloudTwo"></div>
+              <div class="cloudThree"></div>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="footer-socials">
+        <ul class="nav-list">
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://www.facebook.com/naomi.sharp.12/"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://github.com/Naosha"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="https://codepen.io/Naosha"
+              ><i class="fa-brands fa-codepen"></i
+            ></a>
+          </li>
+          <li class="nav-item socials">
+            <a class="nav-link" href="mailto:naomisharp@hotmail.co.uk"
+              ><i class="fa-regular fa-envelope"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+      <hr />
+      <p class="copy">&copy; Copyright 2022 by Naomi Sharp</p>
+    </section>
+  </body>
+</html>
